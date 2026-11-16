@@ -10,7 +10,33 @@ body {
 }
 
 .leftSide {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.logoContainer {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.37);
+  margin-top: 20vh;
+}
+.logo {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  display: flex;
+  align-items: center;
+}
+.odinLogo {
+  width: 8vw;
+}
+.odinText {
+  font-family: "Norse";
+  font-size: 8vw;
+  color: white;
 }
