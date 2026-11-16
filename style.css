@@ -3,10 +3,12 @@
   src: url("./Norsebold.otf");
 }
 body {
+  font-size: 15px;
   margin: 0;
   width: 100vw;
   height: 100vh;
   display: flex;
+  font-family: sans-serif;
 }
 
 .leftSide {
@@ -22,7 +24,6 @@ body {
   width: 40vw;
   display: flex;
   justify-content: center;
-  align-items: center;
   background-color: rgba(0, 0, 0, 0.37);
   margin-top: 20vh;
 }
@@ -33,10 +34,20 @@ body {
   align-items: center;
 }
 .odinLogo {
-  width: 8vw;
+  width: min(8vw, 150px);
 }
 .odinText {
   font-family: "Norse";
-  font-size: 8vw;
+  font-size: min(8vw, 120px);
   color: white;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+footer a {
+  color: inherit;
+  text-decoration-color: RGBA(255, 255, 255, 0.7);
 }
