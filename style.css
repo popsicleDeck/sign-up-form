@@ -2,3 +2,15 @@
   font-family: "Norse";
   src: url("./Norsebold.otf");
 }
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.leftSide {
+  background-image: url("halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
