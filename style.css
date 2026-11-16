@@ -51,3 +51,14 @@ footer a {
   color: inherit;
   text-decoration-color: RGBA(255, 255, 255, 0.7);
 }
+
+.rightContent {
+  margin-top: 15vh;
+  margin-left: min(5vw, 85px);
+}
+
+.pitch {
+  font-weight: 700;
+  max-width: 75ch;
+  margin-right: 5vw;
+}
