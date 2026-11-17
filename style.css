@@ -83,7 +83,7 @@ footer a {
 
 h3 {
   margin: 0;
-  font-size: min(2vw, 30px);
+  font-size: min(1.4vw, 30px);
 }
 
 form {
@@ -113,4 +113,13 @@ input {
 
 input:user-invalid {
   border: 2px solid #d13232;
+}
+
+input:focus {
+  outline: none;
+  border: 2px solid #1d4ed8;
+  box-shadow: 4px 3px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+button {
 }
