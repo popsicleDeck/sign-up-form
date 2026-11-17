@@ -42,14 +42,21 @@
 
         <div class="formSection">
           <div class="formContainer">
-            <h2>Let's do this!</h2>
-            <form>
-              <label>FIRST NAME<input type="text" name="first-name" /></label>
-              <label>LAST NAME<input type="text" name="last-name" /></label>
-              <label>EMAIL<input type="email" name="email" /></label>
-              <label>PHONE NUMBER <input type="tel" /></label>
-              <label>PASSWORD <input type="password" /></label>
-              <label>CONFIRM PASSWORD <input type="password" /></label>
+            <h3>Let's do this!</h3>
+            <form method="get">
+              <label
+                >FIRST NAME<input type="text" name="first-name" required
+              /></label>
+              <label
+                >LAST NAME<input type="text" name="last-name" required
+              /></label>
+              <label>EMAIL<input type="email" name="email" required /></label>
+              <label
+                >PHONE NUMBER
+                <input type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required
+              /></label>
+              <label>PASSWORD <input type="password" required /></label>
+              <label>CONFIRM PASSWORD <input type="password" required /></label>
             </form>
           </div>
         </div>

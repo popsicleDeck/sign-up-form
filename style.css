@@ -8,7 +8,7 @@ body {
   width: 100vw;
   height: 100vh;
   display: flex;
-  font-family: sans-serif;
+  font-family: Arial;
 }
 
 .leftSide {
@@ -53,6 +53,7 @@ footer a {
 }
 .rightSide {
   background-color: #f9fafb;
+  width: 100%;
 }
 .rightContent {
   margin-top: 15vh;
@@ -62,16 +63,54 @@ footer a {
 }
 
 .pitch {
-  font-weight: 700;
+  font-weight: 600;
   max-width: 75ch;
   margin-right: 5vw;
 }
 
 .formSection {
+  box-sizing: border-box;
   margin-left: 0;
   background-color: white;
   box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.28);
 }
 .formContainer {
+  box-sizing: border-box;
   margin-left: min(5vw, 85px);
+  padding-top: 1vw;
+  padding-bottom: 2vw;
+}
+
+h3 {
+  margin: 0;
+  font-size: min(2vw, 30px);
+}
+
+form {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 30vw;
+}
+label {
+  font-size: min(0.8vw, 16px);
+  font-weight: 600;
+  padding-top: 1rem;
+  display: block;
+  padding-right: 2vw;
+}
+
+input {
+  display: block;
+  border-radius: 5px;
+  width: min(12vw, 600px);
+  height: min(2vw, 25px);
+  margin-top: 3px;
+  font-size: 15px;
+  padding-left: 5px;
+  border: 2px solid #e5e7eb;
+}
+
+input:user-invalid {
+  border: 2px solid #d13232;
 }
