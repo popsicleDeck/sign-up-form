@@ -122,4 +122,19 @@ input:focus {
 }
 
 button {
+  margin-top: 25px;
+  padding: min(1vw, 18px) min(3.5vw, 60px);
+  font-size: min(1vw, 20px);
+  font-weight: 700;
+  background-color: #596d48;
+  color: white;
+  border-radius: 8px;
+  box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.login {
+  margin-top: 27px;
+}
+.login span {
+  font-weight: 700;
+  color: #596d48;
 }
